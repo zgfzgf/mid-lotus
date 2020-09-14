@@ -3,8 +3,8 @@ package node
 import (
 	"errors"
 
-	"github.com/zgfzgf/mid-lotus/node/modules/lp2p"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
+	"github.com/zgfzgf/mid-lotus/node/modules/lp2p"
 )
 
 func MockHost(mn mocknet.Mocknet) Option {

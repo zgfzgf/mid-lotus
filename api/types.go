@@ -2,7 +2,6 @@ package api
 
 import (
 	"encoding/json"
-
 	ma "github.com/multiformats/go-multiaddr"
 )
 

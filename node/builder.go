@@ -225,7 +225,7 @@ func New(ctx context.Context, opts ...Option) (api.API, error) {
 
 		fx.Extract(resAPI),
 
-		fx.NopLogger,
+		// fx.NopLogger,
 	)
 
 	// TODO: we probably should have a 'firewall' for Closing signal
