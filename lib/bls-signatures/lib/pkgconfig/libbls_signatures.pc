@@ -1,0 +1,4 @@
+Name: bls signatures
+Version: c2f28819039ce50f9a25429598a6d179fdaabe20
+Description: bls signature scheme library
+Libs: -lutil -lutil -ldl -lrt -lpthread -lgcc_s -lc -lm -lrt -lpthread -lutil -lutil
